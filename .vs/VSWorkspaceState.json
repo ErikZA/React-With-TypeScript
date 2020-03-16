@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\LubyTaskList",
+    "\\src\\services",
+    "\\src\\store",
+    "\\src\\store\\ducks",
+    "\\src\\store\\ducks\\lubytasks"
+  ],
+  "SelectedNode": "\\src\\components\\LubyTaskList\\index.tsx",
+  "PreviewInSolutionExplorer": false
+}

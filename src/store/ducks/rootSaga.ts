@@ -1,10 +1,10 @@
 import { all, takeLatest } from 'redux-saga/effects';
 
-import { LubyTaskTypes } from './lubytasks/types';
-import { load } from './lubytasks/sagas';
+import { UsersTypes } from './users/types';
+import { load } from './users/sagas';
 
 export default function* rootSaga() {
   return yield all([
-    takeLatest(LubyTaskTypes.LOAD_REQUEST, load),
+    takeLatest(UsersTypes.LOAD_REQUEST, load),
   ]);
 }

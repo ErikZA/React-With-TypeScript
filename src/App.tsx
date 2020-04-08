@@ -1,13 +1,12 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 
-import LubyTaskList from './components/LubyTaskList';
+import UsersList from './components/UsersList';
 
 import store from './store';
-import LubyForm from './components/LubyForm';
 
 const App = () => <Provider store={store}>
-    <LubyForm />
-    <LubyTaskList /></Provider>;
+    <UsersList/>
+    </Provider>;
 
 export default App;

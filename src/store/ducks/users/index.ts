@@ -1,25 +1,25 @@
 import { Reducer } from 'redux';
-import { LubyTaskState, LubyTaskTypes } from './types';
+import { UsersState, UsersTypes } from './types';
 
-const INITIAL_STATE: LubyTaskState = {
+const INITIAL_STATE: UsersState = {
   data: [],
   error: false,
   loading: false,
 };
 
-const reducer: Reducer<LubyTaskState> = (state = INITIAL_STATE, action) => {
+const reducer: Reducer<UsersState> = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case LubyTaskTypes.LOAD_REQUEST:
+    case UsersTypes.LOAD_REQUEST:
       return { ...state, loading: true };
-    case LubyTaskTypes.LOAD_SUCCCES:
+    case UsersTypes.LOAD_SUCCESS:
       return {
       ...state, loading: false, error: false, data: action.payload.data,
       };
-    case LubyTaskTypes.LOAD_FAILURE:
+    case UsersTypes.LOAD_FAILURE:
       return {
       ...state, loading: false, error: true, data: [],
       };
-      case LubyTaskTypes.NEW_LUBY_TASK:
+      case UsersTypes.NEW_USER:
         console.log({...state, loading: false, error: false, data: action.payload.data});
         return {
         ...state, loading: false, error: false, data: action.payload.data,

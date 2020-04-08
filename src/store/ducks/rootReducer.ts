@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import lubytasks from './lubytasks';
+import users from './users'
 
 export default combineReducers({
-  lubytasks,
+  users,
 });

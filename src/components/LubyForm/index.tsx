@@ -3,10 +3,10 @@ import { Formik, Field, } from "formik";
 import { string, object } from "yup";
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
-import { LubyTask } from '../../store/ducks/lubytasks/types';
+import { User } from '../../store/ducks/users/types';
 
 
-import * as LubyTaskActions from '../../store/ducks/lubytasks/actions';
+import * as LubyTaskActions from '../../store/ducks/users/actions';
 import { ApplicationState } from "../../store";
 
 const initialValues = {
@@ -15,14 +15,14 @@ const initialValues = {
 };
 
 interface DispatchProps {
-    newLubyTask(data: LubyTask): void
+    newLubyTask(data: User): void
   };
 
 const LubyForm: React.SFC<DispatchProps> = ( {newLubyTask} ) => (
         <div>
             <h1>Welcome</h1>
             <Formik initialValues={initialValues}
-                onSubmit={(values: LubyTask) => {
+                onSubmit={(values: any) => {
                     values.id = Math.floor(Math.random() * Math.floor(1000));
                     console.log(values);
                     newLubyTask(values);
@@ -50,7 +50,7 @@ const LubyForm: React.SFC<DispatchProps> = ( {newLubyTask} ) => (
 );
 
 const mapStateToProps = (state: ApplicationState) => ({
-    lubytasks: state.lubytasks.data,
+    users: state.users.data,
   });
 
 const mapDispatchToProps = (dispatch: Dispatch) => bindActionCreators(LubyTaskActions, dispatch);

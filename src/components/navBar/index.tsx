@@ -13,7 +13,7 @@ interface Props {
   toggleTheme(): void;
 }
 
-const Header: React.FC<Props> = ({ toggleTheme }) => {
+const NavBar: React.FC<Props> = ({ toggleTheme }) => {
   const { colors, title } = useContext(ThemeContext);
 
   return (
@@ -66,4 +66,4 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
   );
 };
 
-export default Header;
+export default NavBar;

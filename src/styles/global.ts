@@ -13,4 +13,8 @@ export default createGlobalStyle`
         color: #333;
         font-family: sans-serif;
     }
+
+    a{
+    text-decoration: none !important;
+}
 `;

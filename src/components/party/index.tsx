@@ -1,9 +1,11 @@
 import React from 'react';
 
-const AboutPage: React.FC = () => {
+const PartyPage: React.FC = () => {
     return(
-        <h1>About Page</h1>
-    )
+        <div>
+        <h1>Party Page</h1>
+        </div>
+        )
 }
 
-export default AboutPage;
+export default PartyPage;

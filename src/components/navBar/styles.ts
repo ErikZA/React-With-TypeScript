@@ -18,7 +18,9 @@ export const Images = styled.img`
 export const ContainerImg = styled.div`
   display: grid;
   align-items: center;
-  margin: 0 10px 0 10px;
+  margin: 0 15px 0 15px;
+  cursor: pointer;
+  color: #000 !important;
 `;
 
 export const ContainerTxt = styled.div`
@@ -30,4 +32,6 @@ export const ContainerLogin = styled.div`
   align-items: center;
   margin: 0 10px 0 10px;
   font-size: 18px;
+  cursor: pointer;
+  color: #000 !important;
 `;

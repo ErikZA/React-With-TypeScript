@@ -1,9 +1,13 @@
 import React from 'react';
 
+import BudgetForm from './budget';
+import SpotlightPage from './spotlight';
+
 const HomePage: React.FC = () => {
     return(
         <div>
-        <h1>Hello Word</h1>
+            <BudgetForm/>
+            <SpotlightPage/>
         </div>
         )
 }

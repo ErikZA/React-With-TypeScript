@@ -12,7 +12,8 @@ interface StateProps {
 }
 
 interface DispatchProps {
-  loadRequest(): void
+  loadRequest(): void,
+  asyncNewUser(data: User): void,
 }
 
 interface OwnProps {
@@ -23,9 +24,10 @@ type Props = StateProps & DispatchProps & OwnProps
 
 class UsersList extends Component<Props> {
   componentDidMount() {
-    const { loadRequest } = this.props;
+    const { loadRequest, asyncNewUser } = this.props;
 
-    loadRequest();
+    //loadRequest();
+    asyncNewUser({ id: 3, name: 'erik++', lastName: 'Zambeli', email: '231@123', password: '23231'})
   }
 
   render() {

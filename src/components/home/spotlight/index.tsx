@@ -11,7 +11,7 @@ import { CardGridStyle, CardStyle, CardMediaStyle, CardContentStyle } from './st
 import crown from "../../../images/icons/crown.png";
 
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const cards = [1];
 
 const SpotlightPage: React.FC = () => {
   return (

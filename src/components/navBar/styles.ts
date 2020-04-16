@@ -2,17 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.nav`
   height: 60px;
-  background: ${(props) => props.theme.colors.primary};
+  background: ${(props) => props.theme.colors.primary} !important;
   color: #fff;
-  display: flex !important;
+  display: flex;
   align-items: center;
   padding: 0 30px;
   justify-content: space-between;
 `;
 
 export const Images = styled.img`
-  width: 30px;
-  margin: auto;
+  width: 30px !important;
+  margin: auto !important;
 `;
 
 export const ContainerImg = styled.div`

@@ -20,9 +20,8 @@ const reducer: Reducer<UsersState> = (state = INITIAL_STATE, action) => {
       ...state, loading: false, error: true, data: [],
       };
       case UsersTypes.NEW_USER:
-        console.log({...state, loading: false, error: false, data: action.payload.data});
         return {
-        ...state, loading: false, error: false, data: action.payload.data,
+        ...state, loading: false, error: false, data: [action.payload.data],
         };
     default:
       return state;

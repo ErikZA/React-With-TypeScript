@@ -8,7 +8,7 @@ import KidsPage from "./components/home/kids";
 import LoginPage from "./components/login";
 import InvitationPage from "./components/home/invitation";
 import WendingPage from "./components/home/wending";
-import SignUpPage from "./components/signUp";
+import SignUpPage from "./components/login/signUp";
 import EventsHomePage from "./components/home/eventsHome";
 
 const Routes = () => {

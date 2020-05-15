@@ -7,8 +7,6 @@ import invitation from "../../../images/icons/invitation.png";
 import guests from "../../../images/icons/guests.png";
 import birthday from "../../../images/icons/birthday-and-party.png";
 
-import { useRouteMatch } from "react-router-dom";
-
 import {
   Container,
   Images,
@@ -24,7 +22,6 @@ interface Props {
 
 const NavBar: React.FC<Props> = ({ toggleTheme }) => {
   const { colors, title } = useContext(ThemeContext);
-  const { path, url } = useRouteMatch();
 
   return (
     <Container>

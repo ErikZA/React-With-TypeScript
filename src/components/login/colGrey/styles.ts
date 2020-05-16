@@ -5,5 +5,9 @@ export const TxtWhite = styled.p`
   font-size: 0.8rem;
   text-align: center;
   vertical-align: bottom;
-  margin-top: 70.5%;
+  margin-top: 62.5%;
+`;
+
+export const ImgStrong = styled.img`
+  margin-bottom: 3.5%;
 `;

@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import Switch from "react-switch";
 import { ThemeContext } from "styled-components";
 import cake from "../../../images/icons/cake.png";
@@ -14,7 +15,6 @@ import {
   ContainerTxt,
   ContainerLogin,
 } from "./styles";
-import { Link } from "react-router-dom";
 
 interface Props {
   toggleTheme(): void;

@@ -1,9 +1,8 @@
 import React from "react";
-
-import LoginUsers from "./loginUsers";
-import ColGrey from "./colGrey";
-
 import ImgTopLeft from "../../images/pictures/Element_Top.png";
+
+import ColGrey from "./colGrey";
+import { RoutesLogin } from "../../routes";
 
 import { ImgTop, ContainerGrey } from "./styles";
 
@@ -14,7 +13,7 @@ const LoginPage: React.FC = () => {
         <ImgTop src={ImgTopLeft} alt="Image left" />
         <div className="row">
           <div className="col-6">
-            <LoginUsers />
+            <RoutesLogin />
           </div>
           <div className="col-6">
             <ColGrey />

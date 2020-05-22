@@ -10,8 +10,8 @@
       "indicated": "Zé Roela da Silva",
       "office": "Diretor",
       "destination": "Segurança Publica",
-      "salary": "15,900",
-      "budget": "300,000"
+      "salary": 15.900,
+      "budget": 300.000
     },
 
     {
@@ -24,8 +24,8 @@
       "indicated": "Zé Roela da Silva",
       "office": "Diretor",
       "destination": "Segurança Publica",
-      "salary": "15,900",
-      "budget": "100,000"
+      "salary": 15.900.,
+      "budget": 100.000
     },
 
     {
@@ -38,8 +38,8 @@
       "indicated": "Zé Roela da Silva",
       "office": "Diretor",
       "destination": "Segurança Publica",
-      "salary": "15,900",
-      "budget": "200,000"
+      "salary": 15.900,
+      "budget": .200.000
     }
   ],
 

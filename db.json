@@ -50,7 +50,14 @@
     { "id": 14, "parties": "PCB", "positions": 8 },
     { "id": 15, "parties": "PTB", "positions": 2 },
     { "id": 16, "parties": "PCU", "positions": 10 },
-    { "id": 17, "parties": "PSDB", "positions": 1 }
+    { "id": 17, "parties": "PSDB", "positions": 1 },
+     { "id": 2, "parties": "PV", "positions": 7 },
+    { "id": 2, "parties": "DEM", "positions": 15 },
+    { "id": 32, "parties": "PSL", "positions": 1 },
+    { "id": 42, "parties": "PUT", "positions": 2 },
+    { "id": 52, "parties": "MDB", "positions": 3 },
+    { "id": 62, "parties": "PBM", "positions": 0 },
+    { "id": 72, "parties": "PLT", "positions": 1 }
   ],
 
   "updatedList": [
